@@ -6,8 +6,9 @@ module.exports = class extends Generator {
         console.log("** Copying the template files:");
         console.log();
 
-        this.fs.copy(this.templatePath('.*'), this.destinationPath(''));
-        this.fs.copy(this.templatePath('**/*'), this.destinationPath(''));
+        this.fs.copy(this.templatePath('dotfiles/__env'), this.destinationPath('.env'));
+        this.fs.copy(this.templatePath('dotfiles/__vscode'), this.destinationPath('.vscode'));
+        this.fs.copy(this.templatePath('repository/**/*'), this.destinationPath(''));
     }
 
     install() {
