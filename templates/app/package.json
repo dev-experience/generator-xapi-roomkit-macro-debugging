@@ -1,0 +1,12 @@
+{
+  "name": "xapi-roomkit-macro-debugging",
+  "version": "0.0.1",
+  "description": "Debug your macros in Visual Studio Code using the Node.js and `jsxapi`",
+  "scripts": {},
+  "author": "Vlad DX <vlad.dev.experience@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "jsxapi": "^4.1.3"
+  }
+}
