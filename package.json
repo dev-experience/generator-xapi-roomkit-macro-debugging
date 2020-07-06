@@ -6,7 +6,13 @@
     "/generators"
   ],
   "keywords": [
-    "yeoman-generator"
+    "yeoman-generator",
+    "Cisco",
+    "macro",
+    "Room Kit",
+    "jsxapi",
+    "xapi",
+    "xapi-roomkit-macro-debugging"
   ],
   "author": "Vlad DX <vlad.dev.experience@gmail.com>",
   "license": "MIT",
