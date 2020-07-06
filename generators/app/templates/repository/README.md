@@ -68,6 +68,8 @@ And you will be able to:
 
 4. Run `npm install` in the directory (only once).
 
+5. Set URL and credentials for your Room Kit device in the `.env` file.
+
 ### Yeoman template
 
 <img src="https://raw.githubusercontent.com/yeoman/media/master/optimized/yeoman-1.svg" height="100px" />
@@ -223,7 +225,7 @@ Check out a mini-course "Writing xAPI Macros 101" on YouTube:
 
 2. New to xAPI Macros?
 
-    - Check the [QuickStart Guide](./docs/QuickStart.md) to learn to load Controls and Macros to your device.
+    - Check the [QuickStart Guide](https://github.com/CiscoDevNet/xapi-samples/blob/master/docs/QuickStart.md) to learn to load Controls and Macros to your device.
     - Take a DevNet Tutorial from the xAPI track (intro to xAPI and creating custom UI Extensions).
 
 3. Don't have a CE device at hand to mess up with?
