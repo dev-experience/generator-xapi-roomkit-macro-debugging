@@ -1,6 +1,6 @@
 {
   "name": "generator-xapi-roomkit-macro-debugging",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Yeoman generator for `xapi-roomkit-macro-debugging`",
   "files": [
     "/generators"
