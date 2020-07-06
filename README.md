@@ -1,6 +1,6 @@
 # Yeoman generator for `xapi-roomkit-macro-debugging` template
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/dev-experience/generator-xapi-roomkit-macro-debugging/blob/v0.2.0/LICENSE) [![npm version](https://img.shields.io/npm/v/generator-xapi-roomkit-macro-debugging.svg?style=flat)](https://www.npmjs.com/package/generator-xapi-roomkit-macro-debugging) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/dev-experience/generator-xapi-roomkit-macro-debugging/blob/v0.2.0/.github/CONTRIBUTING.md)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/dev-experience/generator-xapi-roomkit-macro-debugging/v0.2.0/LICENSE) [![npm version](https://img.shields.io/npm/v/generator-xapi-roomkit-macro-debugging.svg?style=flat)](https://www.npmjs.com/package/generator-xapi-roomkit-macro-debugging) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://raw.githubusercontent.com/dev-experience/generator-xapi-roomkit-macro-debugging/v0.2.0/.github/CONTRIBUTING.md)
 
 Yeoman generator for template from https://github.com/dev-experience/xapi-roomkit-macro-debugging.
 
@@ -26,7 +26,7 @@ If you are developing xAPI Macros, this is for you (see ["Problem statement" bel
     - Switch to the directory.
     - Run `yo xapi-roomkit-macro-debugging`.
 
-7. Check out [README.md](https://github.com/dev-experience/generator-xapi-roomkit-macro-debugging/blob/v0.2.0/generators/app/templates/repository/README.md) or see the docs below.
+7. Check out [README.md](https://raw.githubusercontent.com/dev-experience/generator-xapi-roomkit-macro-debugging/v0.2.0/generators/app/templates/repository/README.md) or see the docs below.
 8. Try to debug sample macro:
     - Open the directory in Visual Studio Code.
     - Set URL and credentials for your device in the `.env` file.
@@ -42,7 +42,7 @@ If you are developing xAPI Macros, this is for you (see ["Problem statement" bel
 
 # xAPI Room Kit macro debugging template
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/dev-experience/generator-xapi-roomkit-macro-debugging/blob/v0.2.0/generators/app/templates/repository/LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/dev-experience/xapi-roomkit-macro-debugging/blob/master/.github/CONTRIBUTING.md)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/dev-experience/generator-xapi-roomkit-macro-debugging/v0.2.0/generators/app/templates/repository/LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/dev-experience/xapi-roomkit-macro-debugging/blob/master/.github/CONTRIBUTING.md)
 
 Repository template is helpful for developing and debugging your macros.
 
@@ -56,7 +56,7 @@ It's quite hard to write a good macro for a Cisco Room Kit CE device.
 - It's complaining about `async`/`await` and confusing you with errors.
 - You need to copy-paste the code all the time to store it as a file and commit your macros to Git repository.
 
-![CE Macro Editor](https://github.com/dev-experience/generator-xapi-roomkit-macro-debugging/blob/v0.2.0/generators/app/templates/repository/docs/img/ce-macro-editor.jpg)
+![CE Macro Editor](https://raw.githubusercontent.com/dev-experience/generator-xapi-roomkit-macro-debugging/v0.2.0/generators/app/templates/repository/docs/img/ce-macro-editor.jpg)
 
 ## Solution
 
@@ -66,26 +66,26 @@ And you will be able to:
 
 1. Keep your macros in files. It makes easy to commit your changes to GIT for change history.
 
-    ![Git history](https://github.com/dev-experience/generator-xapi-roomkit-macro-debugging/blob/v0.2.0/generators/app/templates/repository/docs/img/git-history.png)
+    ![Git history](https://raw.githubusercontent.com/dev-experience/generator-xapi-roomkit-macro-debugging/v0.2.0/generators/app/templates/repository/docs/img/git-history.png)
 
 2. Run your macros from your local machine in Visual Studio Code.
 
-    ![Run xapi macro in Visual Studio Code](https://github.com/dev-experience/generator-xapi-roomkit-macro-debugging/blob/v0.2.0/generators/app/templates/repository/docs/img/vs-code_run.gif)
+    ![Run xapi macro in Visual Studio Code](https://raw.githubusercontent.com/dev-experience/generator-xapi-roomkit-macro-debugging/v0.2.0/generators/app/templates/repository/docs/img/vs-code_run.gif)
 
 3. Use code completion for JavaScript in Visual Studio Code.
 
-    ![Code completion in Visual Studio Code](https://github.com/dev-experience/generator-xapi-roomkit-macro-debugging/blob/v0.2.0/generators/app/templates/repository/docs/img/vs-code_code-completion.gif)
+    ![Code completion in Visual Studio Code](https://raw.githubusercontent.com/dev-experience/generator-xapi-roomkit-macro-debugging/v0.2.0/generators/app/templates/repository/docs/img/vs-code_code-completion.gif)
 
 4. Debug your macros:
     - Step-by-step execution.
     - Observe current variable values.
     - Put a breakpoint to stop the execution and to see what is going on.
 
-    ![Step-by-step execution, watching variable values in Visual Studio Code](https://github.com/dev-experience/generator-xapi-roomkit-macro-debugging/blob/v0.2.0/generators/app/templates/repository/docs/img/vs-code_step-by-step.gif)
+    ![Step-by-step execution, watching variable values in Visual Studio Code](https://raw.githubusercontent.com/dev-experience/generator-xapi-roomkit-macro-debugging/v0.2.0/generators/app/templates/repository/docs/img/vs-code_step-by-step.gif)
 
 5. Use `await` for promises to simplify your code.
 
-    ![Async/await for promises in Visual Studio Code](https://github.com/dev-experience/generator-xapi-roomkit-macro-debugging/blob/v0.2.0/generators/app/templates/repository/docs/img/vs-code_async-await.gif)
+    ![Async/await for promises in Visual Studio Code](https://raw.githubusercontent.com/dev-experience/generator-xapi-roomkit-macro-debugging/v0.2.0/generators/app/templates/repository/docs/img/vs-code_async-await.gif)
 
 
 ## How to
@@ -94,13 +94,13 @@ And you will be able to:
 
 1. Install Visual Studio Code with JavaScript support:
 
-    <img src="https://github.com/dev-experience/generator-xapi-roomkit-macro-debugging/blob/v0.2.0/generators/app/templates/repository/docs/img/vs-code-18x18.png" height="18" /> Visual Studio Code
+    <img src="https://raw.githubusercontent.com/dev-experience/generator-xapi-roomkit-macro-debugging/v0.2.0/generators/app/templates/repository/docs/img/vs-code-18x18.png" height="18" /> Visual Studio Code
     
     https://code.visualstudio.com/download
     
 2. Install Node.js with NPM:
 
-    <img src="https://github.com/dev-experience/generator-xapi-roomkit-macro-debugging/blob/v0.2.0/generators/app/templates/repository/docs/img/nodejs-logo-color.svg" height="18" /> <img src="https://github.com/dev-experience/generator-xapi-roomkit-macro-debugging/blob/v0.2.0/generators/app/templates/repository/docs/img/npm-logo-red.svg" height="12" />
+    <img src="https://raw.githubusercontent.com/dev-experience/generator-xapi-roomkit-macro-debugging/v0.2.0/generators/app/templates/repository/docs/img/nodejs-logo-color.svg" height="18" /> <img src="https://raw.githubusercontent.com/dev-experience/generator-xapi-roomkit-macro-debugging/v0.2.0/generators/app/templates/repository/docs/img/npm-logo-red.svg" height="12" />
     
     https://nodejs.org/en/download/
 
@@ -114,15 +114,15 @@ And you will be able to:
 ### Develop and debug
 - Open the directory in Visual Studio Code.
 
-    ![Open directory in Visual Studio Code](https://github.com/dev-experience/generator-xapi-roomkit-macro-debugging/blob/v0.2.0/generators/app/templates/repository/docs/img/vs-code_open-folder.gif)
+    ![Open directory in Visual Studio Code](https://raw.githubusercontent.com/dev-experience/generator-xapi-roomkit-macro-debugging/v0.2.0/generators/app/templates/repository/docs/img/vs-code_open-folder.gif)
 
-- Open sample macro 'https://github.com/dev-experience/generator-xapi-roomkit-macro-debugging/blob/v0.2.0/macros/1-showVolume.js'.
+- Open sample macro 'https://raw.githubusercontent.com/dev-experience/generator-xapi-roomkit-macro-debugging/v0.2.0/macros/1-showVolume.js'.
 
-    ![Open macro 'https://github.com/dev-experience/generator-xapi-roomkit-macro-debugging/blob/v0.2.0/macros/1-showVolume.js' in Visual Studio Code](https://github.com/dev-experience/generator-xapi-roomkit-macro-debugging/blob/v0.2.0/generators/app/templates/repository/docs/img/vs-code_open-macro.gif)
+    ![Open macro 'https://raw.githubusercontent.com/dev-experience/generator-xapi-roomkit-macro-debugging/v0.2.0/macros/1-showVolume.js' in Visual Studio Code](https://raw.githubusercontent.com/dev-experience/generator-xapi-roomkit-macro-debugging/v0.2.0/generators/app/templates/repository/docs/img/vs-code_open-macro.gif)
 
 - Put a breakpoint on any `console.log(...)` statement by pressing 'F9'.
 
-    ![Put a breakpoint on any console.log statement by pressing 'F9'](https://github.com/dev-experience/generator-xapi-roomkit-macro-debugging/blob/v0.2.0/generators/app/templates/repository/docs/img/vs-code_put-breakpoint.gif)
+    ![Put a breakpoint on any console.log statement by pressing 'F9'](https://raw.githubusercontent.com/dev-experience/generator-xapi-roomkit-macro-debugging/v0.2.0/generators/app/templates/repository/docs/img/vs-code_put-breakpoint.gif)
 
 - Run debugging by pressing 'F5' while you are in the tab with a macro you want to debug
     - Visual Studio Code will run special script '_bootstrap.js' by `node`.
@@ -130,13 +130,13 @@ And you will be able to:
     - Script will load you macro and run it.
     - All output from the macro will be visible in Debug Console in Visual Studio Code.
 
-    ![Run xapi macro in Visual Studio Code](https://github.com/dev-experience/generator-xapi-roomkit-macro-debugging/blob/v0.2.0/generators/app/templates/repository/docs/img/vs-code_run.gif)
+    ![Run xapi macro in Visual Studio Code](https://raw.githubusercontent.com/dev-experience/generator-xapi-roomkit-macro-debugging/v0.2.0/generators/app/templates/repository/docs/img/vs-code_run.gif)
 
 - Enjoy the debugging with:
 
     - Step-by-step execution (press 'F10' to advance), watching variable values (hover a variable by mouse).
 
-        ![Step-by-step execution, watching variable values in Visual Studio Code](https://github.com/dev-experience/generator-xapi-roomkit-macro-debugging/blob/v0.2.0/generators/app/templates/repository/docs/img/vs-code_step-by-step.gif)
+        ![Step-by-step execution, watching variable values in Visual Studio Code](https://raw.githubusercontent.com/dev-experience/generator-xapi-roomkit-macro-debugging/v0.2.0/generators/app/templates/repository/docs/img/vs-code_step-by-step.gif)
 
     - Simple promises handling with `await` and without `.then()`:
 
@@ -164,7 +164,7 @@ And you will be able to:
         });
         ```
 
-        ![Async/await for promises in Visual Studio Code](https://github.com/dev-experience/generator-xapi-roomkit-macro-debugging/blob/v0.2.0/generators/app/templates/repository/docs/img/vs-code_async-await.gif)
+        ![Async/await for promises in Visual Studio Code](https://raw.githubusercontent.com/dev-experience/generator-xapi-roomkit-macro-debugging/v0.2.0/generators/app/templates/repository/docs/img/vs-code_async-await.gif)
 
 ## Learn
 
@@ -180,52 +180,52 @@ Check out a mini-course "Writing xAPI Macros 101" on YouTube:
 [Playlist]
 
 
-## Template files ([see](https://github.com/dev-experience/generator-xapi-roomkit-macro-debugging/blob/v0.2.0/generators/app/templates/repository/))
+## Template files ([see](https://raw.githubusercontent.com/dev-experience/generator-xapi-roomkit-macro-debugging/v0.2.0/generators/app/templates/repository/))
 
-- *[README.md](https://github.com/dev-experience/generator-xapi-roomkit-macro-debugging/blob/v0.2.0/generators/app/templates/repository/README.md)*
+- *[README.md](https://raw.githubusercontent.com/dev-experience/generator-xapi-roomkit-macro-debugging/v0.2.0/generators/app/templates/repository/README.md)*
 
   Current docs.
 
-- *[package.json](https://github.com/dev-experience/generator-xapi-roomkit-macro-debugging/blob/v0.2.0/generators/app/templates/repository/package.json)*
+- *[package.json](https://raw.githubusercontent.com/dev-experience/generator-xapi-roomkit-macro-debugging/v0.2.0/generators/app/templates/repository/package.json)*
 
   Metadata and dependencies definition. Run `npm install` once to install `jsxapi`.
 
-- *[.gitignore](https://github.com/dev-experience/generator-xapi-roomkit-macro-debugging/blob/v0.2.0/generators/app/templates/repository/.gitignore)*
+- *[.gitignore](https://raw.githubusercontent.com/dev-experience/generator-xapi-roomkit-macro-debugging/v0.2.0/generators/app/templates/repository/.gitignore)*
 
   Excludes particular files and directories from GIT commits. Help to make your repository clean and tidy.
 
-- *[.vscode/launch.json](https://github.com/dev-experience/generator-xapi-roomkit-macro-debugging/blob/v0.2.0/generators/app/templates/dotfiles/__vscode/launch.json)*
+- *[.vscode/launch.json](https://raw.githubusercontent.com/dev-experience/generator-xapi-roomkit-macro-debugging/v0.2.0/generators/app/templates/dotfiles/__vscode/launch.json)*
 
   Launch configuration for Visual Studio Code. Enables debugging by 'F5'
 
-- *[_bootstrap.js](https://github.com/dev-experience/generator-xapi-roomkit-macro-debugging/blob/v0.2.0/generators/app/templates/repository/_bootstrap.js)*
+- *[_bootstrap.js](https://raw.githubusercontent.com/dev-experience/generator-xapi-roomkit-macro-debugging/v0.2.0/generators/app/templates/repository/_bootstrap.js)*
 
   Script which is being executed when you press 'F5'.
   
   Helps to load `xapi`, check environment variables, connects to the device, loads the macro for debugging
 
-- *[.env](https://github.com/dev-experience/generator-xapi-roomkit-macro-debugging/blob/v0.2.0/generators/app/templates/dotfiles/__env)*
+- *[.env](https://raw.githubusercontent.com/dev-experience/generator-xapi-roomkit-macro-debugging/v0.2.0/generators/app/templates/dotfiles/__env)*
 
   Helps you to set device URL, username, and password to connect to the device.
   File is added to `.gitignore`, so you will not accidentially commit the password to a GIT repository.
 
-- *[macros/](https://github.com/dev-experience/generator-xapi-roomkit-macro-debugging/blob/v0.2.0/generators/app/templates/repository/macros)*
+- *[macros/](https://raw.githubusercontent.com/dev-experience/generator-xapi-roomkit-macro-debugging/v0.2.0/generators/app/templates/repository/macros)*
 
   **Put all your macros there**
 
-    - *[macros/1-showVolume.js](https://github.com/dev-experience/generator-xapi-roomkit-macro-debugging/blob/v0.2.0/generators/app/templates/repository/macros/1-showVolume.js)*
+    - *[macros/1-showVolume.js](https://raw.githubusercontent.com/dev-experience/generator-xapi-roomkit-macro-debugging/v0.2.0/generators/app/templates/repository/macros/1-showVolume.js)*
 
       Sample macro to check out debugging capabilities.
 
-    - *[macros/0-emptyMacro.js](https://github.com/dev-experience/generator-xapi-roomkit-macro-debugging/blob/v0.2.0/generators/app/templates/repository/macros/0-emptyMacro.js)*
+    - *[macros/0-emptyMacro.js](https://raw.githubusercontent.com/dev-experience/generator-xapi-roomkit-macro-debugging/v0.2.0/generators/app/templates/repository/macros/0-emptyMacro.js)*
 
       **Copy this one to create your new macro**.
 
-- *[docs/](https://github.com/dev-experience/generator-xapi-roomkit-macro-debugging/blob/v0.2.0/generators/app/templates/repository/docs)*
+- *[docs/](https://raw.githubusercontent.com/dev-experience/generator-xapi-roomkit-macro-debugging/v0.2.0/generators/app/templates/repository/docs)*
 
   Documentation files.
 
-- *[macro-tutorial.pdf](https://github.com/dev-experience/generator-xapi-roomkit-macro-debugging/blob/v0.2.0/generators/app/templates/repository/macro-tutorial.pdf)*
+- *[macro-tutorial.pdf](https://raw.githubusercontent.com/dev-experience/generator-xapi-roomkit-macro-debugging/v0.2.0/generators/app/templates/repository/macro-tutorial.pdf)*
 
   Cisco Macro Scripting Tutorial.
 
