@@ -17,17 +17,29 @@ const jsxapi = require('jsxapi');
 const Module = require('module');
 
 // Load environment variables from '.env' file
-dotenv.config()
+dotenv.config();
 
 // Ensure must-have environment variables
 ensureEnvVariable('JSXAPI_DEVICE_URL');
 ensureEnvVariable('JSXAPI_USERNAME');
 ensureEnvVariable('JSXAPI_PASSWORD'); // Empty passwords are not supported
 
-// Check env variables
-if (!process.env.JSXAPI_DEVICE_URL || !process.env.JSXAPI_USERNAME) {
-    console.warn("Please specify info to connect to your device as JSXAPI_DEVICE_URL, JSXAPI_USERNAME, JSXAPI_PASSWORD env variables");
-    console.warn("You can set the variables using '.env' file");
+// File that is being debugged should be passed as a command-line argument
+// node 0-bootstrap.js <file-being-debugged.js>
+const fileBeingDebugged = process.argv[2];
+if (!fileBeingDebugged) {
+    console.error("File to debug is not specified");
+    console.warn("Path to the file is expected to be a third command-line argument");
+    console.warn("Example:");
+    console.warn("node _bootstrap.js <file-to-debug.js>");
+
+    console.log();
+    console.log("If you are using Visual Studio Code, switch to file that you would like to debug and press 'F5'");
+
+    console.log();
+    console.log("In any other case, run the debugging session by command:");
+    console.log("node _bootstrap.js <file-to-debug.js>");
+
     process.exit(1);
 }
 
@@ -58,26 +70,6 @@ Module._load = function(request, parent, isMain) {
     // Otherwise, use original `Module._load` function
     return moduleLoad(request, parent, isMain);
 };
-
-// File that is being debugged should be passed as a command-line argument
-// node 0-bootstrap.js <file-being-debugged.js>
-const fileBeingDebugged = process.argv[2];
-if (!fileBeingDebugged) {
-    console.error("File to debug is not specified");
-    console.warn("Path to the file is expected to be a third command-line argument");
-    console.warn("Example:");
-    console.warn("node _bootstrap.js <file-to-debug.js>");
-
-    console.log();
-    console.log("If you are using Visual Studio Code, switch to file that you would like to debug and press 'F5'");
-
-    console.log();
-    console.log("In any other case, run the debugging session by command:");
-    console.log("node _bootstrap.js <file-to-debug.js>");
-
-    process.exit(1);
-}
-
 
 xapi.on('error', err => {
     console.error(`Connection failed: ${err}`);
